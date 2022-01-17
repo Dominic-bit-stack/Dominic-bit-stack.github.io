@@ -1,0 +1,37 @@
+<head>
+    <title>form sheet</title>
+    <link rel="stylesheet" a href= "C:\python files\Style_Sheet.css">
+</head>
+<h1>Rental Information</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button><br><br>
+<a href="C:\python files\Page_1.html" class="button">Return</a>
+<p id="demo"></p>
+<form action="action_page.php" method="get" target="_blank">
+
+    <label for="Fname">First name:</label><br>
+    <input type="text" id="name" name="name" value="" required placeholder="  Name"><br>
+    <label for="Lname">Last name:</label><br>
+    <input type="text" id="Lname" name="Lname" value="" required placeholder="  Last Name"><br>
+    <label for="date">Date:</label><br>
+    <input type="text" id="date" name="date" value="" placeholder=" Current Date"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" value="" required placeholder=" Email"><br>
+    <label for="age">Age</label><br>
+    <input type="age" id="age" name="Age" value="" required placeholder=" Age"><br><br>
+
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars">
+        <option value="Jeep Wrangler">Jeep Wrangler</option>
+        <option value="Ford Pickup Truck ">Truck</option>
+        <option value="SUV">SUV</option>
+        <option value="Tesla Model S">Tesla</option>
+      </select>
+        <input type="checkbox" id="GasCard" name="GasCard" value="Card">
+    <label for="GasCard"> GasCard</label><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+
+

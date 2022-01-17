@@ -1,0 +1,147 @@
+body {
+    background-color: #004aff;
+  }
+  h1 {
+    color: black;
+  }
+  p {
+    color: black;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=age], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(196, 00, 00);
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #004aff;
+    padding: 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    color: rgb(196, 00, 00);
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 1000px; 
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  header {
+    background-color:  #c40000;
+    padding: 50px;
+    font-size: 35px;
+    color: white;
+  }
+  
+  
+  nav {
+    width: 20%;
+    height: 2000px; 
+    background: rgb(28, 135, 177);
+    padding: 20px;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #53469c;
+    height: 300px; 
+  }
+  
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+      .container {
+    position: relative;
+    text-align: center;
+    color: #004aff;
+  
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+}
