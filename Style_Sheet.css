@@ -106,7 +106,7 @@ body {
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #53469c;
+    background-color: #469c4a;
     height: 300px; 
   }
   
@@ -128,20 +128,17 @@ body {
     color: #004aff;
   
   }
-  a:link {
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
   }
   
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  a:active {
-    text-decoration: underline;
+  a:hover, a:active {
+    background-color: red;
   }
 
 }
