@@ -1,5 +1,5 @@
 body {
-    background-color: #004aff;
+    background-color: rgb(255, 255, 255);
   }
   h1 {
     color: black;
@@ -54,7 +54,7 @@ body {
   
   div {
     border-radius: 5px;
-    background-color: #004aff;
+    background-color: #31911e;
     padding: 20px;
   }
 
@@ -82,7 +82,7 @@ body {
   
   
   header {
-    background-color:  #c40000;
+    background-color:  #44b136;
     padding: 50px;
     font-size: 35px;
     color: white;
@@ -140,5 +140,25 @@ body {
   a:hover, a:active {
     background-color: red;
   }
+  .column {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
 
 }
+
